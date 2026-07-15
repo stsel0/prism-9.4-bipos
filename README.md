@@ -7,7 +7,7 @@ Launch it once and go through the setup process
 Get the location of where it resides  
 Then launch CMD and run this command, replace <location> with the folder path:  
 ```
-echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "MSA"}],"formatVersion": 3} > "<LOCATION>.json"
+echo {"accounts": [{"entitlement": {"canPlayMinecraft": true,"ownsMinecraft": true},"type": "MSA"}],"formatVersion": 3} > "<LOCATION>/accounts.json"
 ```
 ----
 
